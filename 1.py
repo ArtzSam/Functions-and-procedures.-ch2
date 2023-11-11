@@ -7,9 +7,6 @@ def add_seq(list1, list2):
     for num1, num2 in zip_longest(list1, list2, fillvalue=0):
         result.append(num1 + num2)
     return result
-
-seq1 = [1, 2, 3, 4]
-seq2 = [10, 20, 30, 40, 50]
 seq = add_seq(seq1, seq2)
 print(seq)
 
